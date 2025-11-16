@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Khatu Shyam Trading Co.</title>
+        
+        <!-- Tailwind CSS -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        
+        <!-- Font Awesome for Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- Swiper's CSS for Image Slider -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="CSS/style.css">
+
+        <!-- Site Icon -->
+        <link rel="icon" href="Resources/KSTC/kstc-logo.png">
+    </head>
+    <body class="bg-gray-100">
+        <!-- Header -->
+        <header class="sticky top-0 z-40 shadow-md">
+            
+            <!-- Top Panel: Logo and Name -->
+            <div class="bg-gray-200">
+                <div class="flex items-center justify-between h-20 px-4 sm:px-6 lg:px-8">
+                    <!-- Logo -->
+                    <img class="h-16 w-auto" src="Resources/KSTC/kstc-logo.png" alt="Khatu Shyam Trading Co. Logo">
+                    
+                    <!-- Business Name -->
+                    <span class="text-gray-800 text-2xl font-bold">Khatu Shyam Trading Co.</span>
+                </div>
+            </div>
+
+            <!-- Bottom Panel: Navigation and Search -->
+            <nav class="bg-custom-orange">
+                <div id="desktop-menu" class="hidden md:flex items-center justify-between h-14 px-4 sm:px-6 lg:px-8">
+                    <!-- Navigation Links -->
+                    <div class="flex items-center space-x-8">
+                        <a href="#" class="text-white font-bold hover:text-gray-200 transition">Home</a>
+                        <a href="#products" class="text-white font-bold hover:text-gray-200 transition">Products</a>
+                        <a href="#brands" class="text-white font-bold hover:text-gray-200 transition">Our Brands</a>
+                        <a href="#payment" class="text-white font-bold hover:text-gray-200 transition">Payment Options</a>
+                        <a href="#footer" class="text-white font-bold hover:text-gray-200 transition">Contact</a>
+                    </div>
+
+                    <!-- Search Bar -->
+                    <div class="flex flex-1 items-center justify-end gap-4">
+                        <div class="relative w-full max-w-md">
+                            <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                                <i class="fa-solid fa-search text-gray-500"></i>
+                            </div>
+                            <input class="block w-full bg-white border border-gray-300 rounded-md py-2 pl-10 pr-3 text-sm placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-400" type="text" placeholder="Search for Products, Brands and More">
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Mobile Menu (hidden by default) -->
+            <div id="mobile-menu" class="md:hidden hidden bg-gray-700">
+                <a href="#" class="block text-white px-4 py-3 hover:bg-gray-600">Home</a>
+                <a href="#products" class="block text-white px-4 py-3 hover:bg-gray-600">Products</a>
+                <a href="#brands" class="block text-white px-4 py-3 hover:bg-gray-600">Our Brands</a>
+                <a href="#payment" class="block text-white px-4 py-3 hover:bg-gray-600">Payment Options</a>
+                <a href="#footer" class="block text-white px-4 py-3 hover:bg-gray-600">Contact</a>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="container mx-auto p-4 sm:p-6 lg:p-8">
+            
+            <!-- Hero Banner Slider -->
+            <div class="swiper mySwiper rounded-lg shadow-md overflow-hidden mb-8 h-64 md:h-96">
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="Resources/Sentini/sentini-slider.avif" class="w-full h-full object-cover" alt="Sentini Flopipes"></div>
+                    <div class="swiper-slide"><img src="Resources/Paras/paras-slider.webp" class="w-full h-full object-cover" alt="Paras Tanks"></div>
+                    <div class="swiper-slide"><img src="Resources/Johnson/johnson-slider.jpg" class="w-full h-full object-cover" alt="Johnson Sanitary & CP"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <!-- Brands Section -->
+            <section id="brands" class="mt-12">
+                <h2 class="text-2xl font-bold text-gray-800 mb-8 text-center">We Deal In</h2>
+                <div class="flex flex-wrap items-center justify-center gap-8 md:gap-16">
+                    <a href="https://www.sentiniflopipes.com/" target="_blank" class="brand-logo-link">
+                        <img src="Resources/Sentini/sentini-logo.png" alt="Sentini Logo" class="h-16 object-contain"></a>
+                    <a href="https://parasgroup.com/water-tanks/" target="_blank" class="brand-logo-link">
+                        <img src="Resources/Paras/paras-logo.webp" alt="Paras Tanks Logo" class="h-16 object-contain"></a>
+                    <a href="https://www.johnsonpedder.in/" target="_blank" class="brand-logo-link">
+                        <img src="Resources/Johnson/johnson-logo.png" alt="Johnson Sanitary Logo" class="h-16 object-contain"></a>
+                </div>
+            </section>
+            <br>
+            <!-- Product Categories Section -->
+            <section id="products">
+                <h2 class="text-2xl font-bold text-gray-800 mb-8 text-center">Our Product Range</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+                    
+                    <!-- Product Cards -->
+                    <div class="product-card">
+                        <img src="Resources/Sentini/sentini-flopipes.jpg" alt="Sentini Flopipes" class="product-card-img">
+                        <div class="product-card-overlay">
+                            <h3 class="product-card-title">Sentini Flopipes</h3>
+                            <!-- <a href="sentiniflopipes.html" target="_blank" class="product-card-button">
+                                Explore &rarr;
+                            </a> -->
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Resources/Sentini/sentini-agri-pipes.jpg" alt="Agri Pipes" class="product-card-img">
+                        <div class="product-card-overlay">
+                            <h3 class="product-card-title">Agri Pipes</h3>
+                            <!-- <a href="agripipes.html" target="_blank" class="product-card-button">
+                                Explore &rarr;
+                            </a> -->
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Resources/Sentini/sentini-casing-pipes.jpg" alt="Casing Pipes" class="product-card-img">
+                        <div class="product-card-overlay">
+                            <h3 class="product-card-title">Casing Pipes</h3>
+                            <!-- <a href="casingpipes.html" target="_blank" class="product-card-button">
+                                Explore &rarr;
+                            </a> -->
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Resources/Sentini/sentini-column-pipes.jpg" alt="Column Pipes" class="product-card-img">
+                        <div class="product-card-overlay">
+                            <h3 class="product-card-title">Column Pipes</h3>
+                            <!-- <a href="columnpipes.html" target="_blank" class="product-card-button">
+                                Explore &rarr;
+                            </a> -->
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Resources/Sentini/sentini-conduit-pipes.jpg" alt="Conduit Pipes" class="product-card-img">
+                        <div class="product-card-overlay">
+                            <h3 class="product-card-title">Conduit Pipes</h3>
+                            <!-- <a href="conduitpipes.html" target="_blank" class="product-card-button">
+                                Explore &rarr;
+                            </a> -->
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Resources/Sentini/sentini-cpvc-pipes.jpg" alt="CPVC Pipes" class="product-card-img">
+                        <div class="product-card-overlay">
+                            <h3 class="product-card-title">CPVC Pipes</h3>
+                            <!-- <a href="cpvcpipes.html" target="_blank" class="product-card-button">
+                                Explore &rarr;
+                            </a> -->
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Resources/Sentini/sentini-swr-pipes.jpg" alt="Sentini Flopipes" class="product-card-img">
+                        <div class="product-card-overlay">
+                            <h3 class="product-card-title">SWR Pipes</h3>
+                            <!-- <a href="swrpipes.html" target="_blank" class="product-card-button">
+                                Explore &rarr;
+                            </a> -->
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Resources/Sentini/sentini-ugd-pipes.jpg" alt="Sentini Flopipes" class="product-card-img">
+                        <div class="product-card-overlay">
+                            <h3 class="product-card-title">UGD Pipes</h3>
+                            <!-- <a href="ugdpipes.html" target="_blank" class="product-card-button">
+                                Explore &rarr;
+                            </a> -->
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Resources/Sentini/sentini-upvc-pipes.jpg" alt="Sentini Flopipes" class="product-card-img">
+                        <div class="product-card-overlay">
+                            <h3 class="product-card-title">UPVC Pipes</h3>
+                            <!-- <a href="upvcpipes.html" target="_blank" class="product-card-button">
+                                Explore &rarr;
+                            </a> -->
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Resources/Johnson/johnson-pc.webp" alt="Johnson Pedders" class="product-card-img">
+                        <div class="product-card-overlay">
+                            <h3 class="product-card-title">Johnson Pedders</h3>
+                            <!-- <a href="johnsonpedders.html" target="_blank" class="product-card-button">
+                                Explore &rarr;
+                            </a> -->
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Resources/Johnson/johnson-cps.jpeg" alt="Sanitary & CPs" class="product-card-img">
+                        <div class="product-card-overlay">
+                            <h3 class="product-card-title">Sanitary & CPs</h3>
+                            <!-- <a href="sanitary.html" target="_blank" class="product-card-button">
+                                Explore &rarr;
+                            </a> -->
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="Resources/Paras/paras-watertank-pc.webp" alt="Paras Water Tank" class="product-card-img">
+                        <div class="product-card-overlay">
+                            <h3 class="product-card-title">Paras Water Tank</h3>
+                            <!-- <a href="paraswatertank.html" target="_blank" class="product-card-button">
+                                Explore &rarr;
+                            </a> -->
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!-- Video Showcase Section -->
+            <section id="videos" class="bg-gray-100 py-12">
+                <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                    
+                    <!-- Section Title -->
+                    <h2 class="text-2xl font-bold text-gray-800 mb-8 text-center">
+                        Brand Showcase
+                    </h2>
+                    
+                    <!-- Video Container: Stacks them in a column and centers them -->
+                    <div class="flex flex-col items-center gap-8">
+                        
+                        <!-- Video 1: Sentini Flopipes -->
+                        <div class="video-card">
+                            <!-- <h3 class="text-lg font-semibold text-gray-700 mb-3">Sentini Flopipes</h3> -->
+                            <!-- NOTE: The responsive wrapper is removed -->
+                            <iframe 
+                                width="850" 
+                                height="470"
+                                src="https://www.youtube.com/embed/usid0z1Myr0?si=YGtDoYer5ly6QocI?autoplay=1" 
+                                title="Sentini Flopipes Video" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+
+                        <!-- Video 2: Johnson Pedder Sanitary -->
+                        <div class="video-card">
+                            <!-- <h3 class="text-lg font-semibold text-gray-700 mb-3">Johnson Pedder</h3> -->
+                            <!-- NOTE: The responsive wrapper is removed -->
+                            <iframe 
+                                width="850" 
+                                height="470"
+                                src="https://www.youtube.com/embed/lHXVircjFSc?si=gZxSutlDYbbFlRoH?autoplay=1" 
+                                title="Johnson Pedder Video" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+
+                        <!-- Video 3: Paras Water Tank -->
+                        <div class="video-card">
+                            <!-- <h3 class="text-lg font-semibold text-gray-700 mb-3">Paras Water Tank</h3> -->
+                            <!-- NOTE: The responsive wrapper is removed -->
+                            <iframe 
+                                width="850" 
+                                height="470"
+                                src="https://www.youtube.com/embed/CzbhiiG2hyY?si=0VdWWFzRIceRjHuI?autoplay=1" 
+                                title="Johnson Pedder Video" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        
+                        <!-- You can copy and paste the "video-card" div to add more videos -->
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Payment Section -->
+            <section id="payment" class="mt-12">
+                <h2 class="text-2xl font-bold text-gray-800 mb-8 text-center">Secure Payment Options</h2>
+                <div class="bg-white rounded-lg shadow-md p-8">
+                    <div class="flex flex-col md:flex-col items-center justify-between gap-8">
+                        
+                        <!-- Left Column: Text -->
+                        <div class="text-center md:text-center">
+                            <p class="text-gray-700 text-lg">Here you can use all the major payment methods through secure gateways in-store shopping or online.</p>
+                            <p class="text-gray-700 text-lg">We accepts Cheques, Credit Card, Debit Card, VISA and All Major UPIs.</p>
+                        </div>
+
+                        <!-- Right Column: Images -->
+                        <div class="flex flex-col items-center md:items-end gap-4">
+                            <!-- Top row of images (UPI/Wallets) -->
+                            <div class="flex items-center justify-center md:justify-end flex-wrap gap-4">
+                                <img src="Resources/PaymentLogo/googlepay-logo.png" alt="Google Pay" class="h-12 object-contain">
+                                <img src="Resources/PaymentLogo/phonepe-logo.png" alt="PhonePe" class="h-12 object-contain">
+                                <img src="Resources/PaymentLogo/paytm-logo.png" alt="Paytm" class="h-14 object-contain">
+                                <img src="Resources/PaymentLogo/amazonpay-logo.png" alt="Amazon Pay" class="h-12 object-contain">
+                                <img src="Resources/PaymentLogo/bhim-logo.png" alt="BHIM" class="h-7 object-contain">
+                                <img src="Resources/PaymentLogo/visa-logo.png" alt="Visa" class="h-16 object-contain">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer id="footer" class="bg-gray-800 text-white mt-12">
+            <div class="py-8 px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-wrap justify-between text-center md:text-left -mx-4">
+                    <!-- About -->
+                    <div class="w-full md:w-1/3 px-4 mb-8 md:mb-0">
+                        <h3 class="text-lg font-semibold mb-3">Khatu Shyam Trading Co.</h3>
+                        <p class="text-gray-400 text-sm">Your trusted wholesale partner for high-quality pipes, Flopipes, and water solutions in the Gwalior & Chambal region.</p>
+                    </div>
+                    <!-- Contact Info -->
+                    <div class="w-full md:w-1/3 px-4 mb-8 md:mb-0">
+                        <h3 class="text-lg font-semibold mb-3">Contact Us</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center justify-center md:justify-start">
+                                <i class="fa-solid fa-location-dot w-5 mr-2"></i>
+                                <span>Radhapuram, near Amity University, Maharajpura, Gwalior, Madhya Pradesh, 474005, India</span>
+                            </li>
+                            <li class="flex items-center justify-center md:justify-start">
+                                <i class="fa-solid fa-phone w-5 mr-2"></i>
+                                <a href="tel:+91 93404 86840" class="text-gray-300 hover:text-white">+91 93404 86840</a>
+                            </li>
+                            <li class="flex items-center justify-center md:justify-start">
+                                <i class="fa-solid fa-envelope w-5 mr-2"></i>
+                                <a href="mailto:kstradingco88@gmail.com" class="text-gray-300 hover:text-white">kstradingco88@gmail.com</a>
+                            </li>
+                            <li class="flex items-center justify-center md:justify-start">
+                                <i class="fa-solid fa-map-location-dot w-5 mr-2"></i>
+                                <a href="https://maps.app.goo.gl/iEdqLSsPtrpXNR7q9" target="_blank" class="text-gray-300 hover:text-white">View on Google Maps</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Social Links -->
+                    <div class="w-full md:w-1/3 px-4">
+                        <h3 class="text-lg font-semibold mb-3">Follow Us</h3>
+                        <div class="flex justify-center md:justify-start space-x-4">
+                            <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook-f text-xl"></i></a>
+                            <a href="https://www.instagram.com/khatushyamtradingco" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white"><i class="fab fa-instagram text-xl"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8 border-t border-gray-700 pt-6 text-center text-sm text-gray-400">
+                    <p>&copy; 2025 Khatu Shyam Trading Co.. All Rights Reserved. &trade;</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Floating Dealer Notice Button -->
+        <button id="show-notice-btn" class="notice-float" title="Dealer Notice">
+            <i class="fa-solid fa-bullhorn"></i>
+        </button>
+        
+        <!-- Floating WhatsApp Button -->
+        <a href="https://wa.me/919340486840?text=Hello!%20I'm%20interested%20in%20your%20products%20range.%20I've%20got%20you%20from%20your%20website.%20Let's%20have%20a%20good%20deal." class="whatsapp-float" target="_blank">
+            <i class="fab fa-whatsapp my-4"></i>
+        </a>
+
+        <!-- Notification Modal -->
+        <div id="notification-modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+            <div id="notification-content" class="bg-white rounded-lg shadow-xl p-6 md:p-8 w-11/12 max-w-lg relative">
+                <button id="close-modal-btn" class="absolute top-3 right-3 text-gray-500 hover:text-gray-800">
+                    <i class="fa-solid fa-times text-2xl"></i>
+                </button>
+                <h2 class="text-xl font-bold text-gray-800 mb-4">Dear Customer,</h2>
+                <div class="text-gray-600 space-y-3 text-sm md:text-base">
+                    <p>We are the <b>authorized distributor</b> of Sentini Flopipes in the Gwalior & Chambal region.</p>
+                    <p>We supply a wide range of pipes and fitting accessories. If you wish to purchase any products, please feel free to contact us at the number provided.</p>
+                    <p class="font-semibold mt-2">Our Product Range:</p>
+                    <ul class="list-disc list-inside ml-4">
+                        <li>Casings, Column Pipes</li>
+                        <li>UPVC, CPVC Pipes</li>
+                        <li>UGD, SWR, Agri Pipes</li>
+                    </ul>
+                    <p class="font-semibold mt-2">We also deal in Paras Water Tanks & Johnson Pedders Sanitary.</p>
+                    <p class="font-bold text-red-600 mt-4">Note:</p>
+                    <p class="font-semibold">We only sell in wholesale to shop owners and dealers. We do not sell to individual customers.</p>
+                    <p class="mt-4">Thank you & Regards,<br>Khatu Shyam Trading Co.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 1. Swiper JS for Image Slider (MUST BE FIRST) -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        
+        <!-- 2. Your Custom JS (MUST BE SECOND) -->
+        <script src="JS/script.js"></script>
+
+    </body>
+</html>
