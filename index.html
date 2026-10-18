@@ -1,401 +1,523 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Khatu Shyam Trading Co.</title>
-        
-        <!-- Tailwind CSS -->
-        <script src="https://cdn.tailwindcss.com"></script>
-        
-        <!-- Font Awesome for Icons -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-        
-        <!-- Google Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-        <!-- Swiper's CSS for Image Slider -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khatu Shyam Trading Co. — Authorized Wholesale Distributor | Gwalior</title>
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="CSS/style.css">
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Khatu Shyam Trading Co. is the premier authorized wholesale distributor of Sentini Flopipes, Johnson Pedders Sanitary Ware, and Polyworld Water Tanks in Gwalior &amp; Chambal region, Madhya Pradesh.">
+    <meta name="keywords"
+        content="Khatu Shyam Trading Co, Sentini Flopipes Gwalior, Polyworld Water Tanks, Johnson Pedder Sanitary, wholesale pipes, CPVC pipes, UPVC, SWR, column pipes, borewell casing, sanitary ware distributor Gwalior">
+    <meta name="author" content="Khatu Shyam Trading Co.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kstco.vercel.app/">
+    <meta name="theme-color" content="#0F8A63">
 
-        <!-- Site Icon -->
-        <link rel="icon" href="Resources/KSTC/kstc-logo.png">
-    </head>
-    <body class="bg-gray-100">
-        <!-- Header -->
-        <header class="sticky top-0 z-40 shadow-md">
-            
-            <!-- Top Panel: Logo and Name -->
-            <div class="bg-gray-200">
-                <div class="flex items-center justify-between h-20 px-4 sm:px-6 lg:px-8">
-                    <!-- Logo -->
-                    <img class="h-16 w-auto" src="Resources/KSTC/kstc-logo.png" alt="Khatu Shyam Trading Co. Logo">
-                    
-                    <!-- Business Name -->
-                    <span class="text-gray-800 text-2xl font-bold">Khatu Shyam Trading Co.</span>
-                </div>
-            </div>
+        <!-- Open Graph / Facebook / WhatsApp -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://kstco.vercel.app/">
+        <meta property="og:title" content="Khatu Shyam Trading Co. — Authorized Wholesale Distributor">
+        <meta property="og:description" content="Authorized distributor for Sentini Flopipes, Polyworld Water Tanks, and Johnson Pedders Sanitary Ware serving retail &amp; trade in Gwalior &amp; Chambal.">
+        <meta property="og:image" content="https://kstco.vercel.app/Resources/og-preview.png">
+        <meta property="og:image:secure_url" content="https://kstco.vercel.app/Resources/og-preview.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:alt" content="Khatu Shyam Trading Co. — Authorized Wholesale Distributor">
+        <meta property="og:site_name" content="Khatu Shyam Trading Co.">
+        <meta property="og:locale" content="en_IN">
 
-            <!-- Bottom Panel: Navigation and Search -->
-            <nav class="bg-custom-orange">
-                <div id="desktop-menu" class="hidden md:flex items-center justify-between h-14 px-4 sm:px-6 lg:px-8">
-                    <!-- Navigation Links -->
-                    <div class="flex items-center space-x-8">
-                        <a href="#" class="text-white font-bold hover:text-gray-200 transition">Home</a>
-                        <a href="#products" class="text-white font-bold hover:text-gray-200 transition">Products</a>
-                        <a href="#brands" class="text-white font-bold hover:text-gray-200 transition">Our Brands</a>
-                        <a href="#payment" class="text-white font-bold hover:text-gray-200 transition">Payment Options</a>
-                        <a href="#footer" class="text-white font-bold hover:text-gray-200 transition">Contact</a>
-                    </div>
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:url" content="https://kstco.vercel.app/">
+        <meta name="twitter:title" content="Khatu Shyam Trading Co. — Authorized Wholesale Distributor">
+        <meta name="twitter:description" content="Leading regional distributor of Sentini Flopipes, Polyworld Water Tanks, and Johnson Pedders Sanitary Ware in Gwalior, MP.">
+        <meta name="twitter:image" content="https://kstco.vercel.app/Resources/og-preview.png">
 
-                    <!-- Search Bar -->
-                    <div class="flex flex-1 items-center justify-end gap-4">
-                        <div class="relative w-full max-w-md">
-                            <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                                <i class="fa-solid fa-search text-gray-500"></i>
-                            </div>
-                            <input class="block w-full bg-white border border-gray-300 rounded-md py-2 pl-10 pr-3 text-sm placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-400" type="text" placeholder="Search for Products, Brands and More">
-                        </div>
-                    </div>
-                </div>
-            </nav>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-            <!-- Mobile Menu (hidden by default) -->
-            <div id="mobile-menu" class="md:hidden hidden bg-gray-700">
-                <a href="#" class="block text-white px-4 py-3 hover:bg-gray-600">Home</a>
-                <a href="#products" class="block text-white px-4 py-3 hover:bg-gray-600">Products</a>
-                <a href="#brands" class="block text-white px-4 py-3 hover:bg-gray-600">Our Brands</a>
-                <a href="#payment" class="block text-white px-4 py-3 hover:bg-gray-600">Payment Options</a>
-                <a href="#footer" class="block text-white px-4 py-3 hover:bg-gray-600">Contact</a>
-            </div>
-        </header>
+    <!-- Vanilla CSS (No Tailwind Runtime) -->
+    <link rel="stylesheet" href="style.css">
 
-        <!-- Main Content -->
-        <main class="container mx-auto p-4 sm:p-6 lg:p-8">
-            
-            <!-- Hero Banner Slider -->
-            <div class="swiper mySwiper rounded-lg shadow-md overflow-hidden mb-8 h-64 md:h-96">
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide"><img src="Resources/Sentini/sentini-slider.avif" class="w-full h-full object-cover" alt="Sentini Flopipes"></div>
-                    <div class="swiper-slide"><img src="Resources/Paras/paras-slider.webp" class="w-full h-full object-cover" alt="Paras Tanks"></div>
-                    <div class="swiper-slide"><img src="Resources/Johnson/johnson-slider.jpg" class="w-full h-full object-cover" alt="Johnson Sanitary & CP"></div>
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
+    <!-- Site Favicon -->
+    <link rel="icon" type="image/png" href="Resources/KSTC/kstc-logo.png">
+    <link rel="apple-touch-icon" href="Resources/KSTC/kstc-logo.png">
+</head>
 
-            <!-- Brands Section -->
-            <section id="brands" class="mt-12">
-                <h2 class="text-2xl font-bold text-gray-800 mb-8 text-center">We Deal In</h2>
-                <div class="flex flex-wrap items-center justify-center gap-8 md:gap-16">
-                    <a href="https://www.sentiniflopipes.com/" target="_blank" class="brand-logo-link">
-                        <img src="Resources/Sentini/sentini-logo.png" alt="Sentini Logo" class="h-16 object-contain"></a>
-                    <a href="https://parasgroup.com/water-tanks/" target="_blank" class="brand-logo-link">
-                        <img src="Resources/Paras/paras-logo.webp" alt="Paras Tanks Logo" class="h-16 object-contain"></a>
-                    <a href="https://www.johnsonpedder.in/" target="_blank" class="brand-logo-link">
-                        <img src="Resources/Johnson/johnson-logo.png" alt="Johnson Sanitary Logo" class="h-16 object-contain"></a>
-                </div>
-            </section>
-            <br>
-            <!-- Product Categories Section -->
-            <section id="products">
-                <h2 class="text-2xl font-bold text-gray-800 mb-8 text-center">Our Product Range</h2>
-                <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
-                    
-                    <!-- Product Cards -->
-                    <div class="product-card">
-                        <img src="Resources/Sentini/sentini-flopipes.jpg" alt="Sentini Flopipes" class="product-card-img">
-                        <div class="product-card-overlay">
-                            <h3 class="product-card-title">Sentini Flopipes</h3>
-                            <!-- <a href="sentiniflopipes.html" target="_blank" class="product-card-button">
-                                Explore &rarr;
-                            </a> -->
-                        </div>
+<body>
+    <!-- Sticky Glass Header -->
+    <header class="glass-header">
+        <div class="site-container">
+            <div class="header-inner">
+                <!-- Left: Logo & Brand Identity -->
+                <a href="#" class="brand-wrapper" title="Khatu Shyam Trading Co.">
+                    <img class="brand-logo-img" src="Resources/KSTC/kstc-logo.png" alt="Khatu Shyam Trading Co. Logo">
+                    <div class="brand-info">
+                        <span class="brand-title">Khatu Shyam Trading Co.</span>
+                        <span class="brand-subtitle">Authorized Distributor</span>
                     </div>
-                    <div class="product-card">
-                        <img src="Resources/Sentini/sentini-agri-pipes.jpg" alt="Agri Pipes" class="product-card-img">
-                        <div class="product-card-overlay">
-                            <h3 class="product-card-title">Agri Pipes</h3>
-                            <!-- <a href="agripipes.html" target="_blank" class="product-card-button">
-                                Explore &rarr;
-                            </a> -->
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <img src="Resources/Sentini/sentini-casing-pipes.jpg" alt="Casing Pipes" class="product-card-img">
-                        <div class="product-card-overlay">
-                            <h3 class="product-card-title">Casing Pipes</h3>
-                            <!-- <a href="casingpipes.html" target="_blank" class="product-card-button">
-                                Explore &rarr;
-                            </a> -->
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <img src="Resources/Sentini/sentini-column-pipes.jpg" alt="Column Pipes" class="product-card-img">
-                        <div class="product-card-overlay">
-                            <h3 class="product-card-title">Column Pipes</h3>
-                            <!-- <a href="columnpipes.html" target="_blank" class="product-card-button">
-                                Explore &rarr;
-                            </a> -->
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <img src="Resources/Sentini/sentini-conduit-pipes.jpg" alt="Conduit Pipes" class="product-card-img">
-                        <div class="product-card-overlay">
-                            <h3 class="product-card-title">Conduit Pipes</h3>
-                            <!-- <a href="conduitpipes.html" target="_blank" class="product-card-button">
-                                Explore &rarr;
-                            </a> -->
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <img src="Resources/Sentini/sentini-cpvc-pipes.jpg" alt="CPVC Pipes" class="product-card-img">
-                        <div class="product-card-overlay">
-                            <h3 class="product-card-title">CPVC Pipes</h3>
-                            <!-- <a href="cpvcpipes.html" target="_blank" class="product-card-button">
-                                Explore &rarr;
-                            </a> -->
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <img src="Resources/Sentini/sentini-swr-pipes.jpg" alt="Sentini Flopipes" class="product-card-img">
-                        <div class="product-card-overlay">
-                            <h3 class="product-card-title">SWR Pipes</h3>
-                            <!-- <a href="swrpipes.html" target="_blank" class="product-card-button">
-                                Explore &rarr;
-                            </a> -->
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <img src="Resources/Sentini/sentini-ugd-pipes.jpg" alt="Sentini Flopipes" class="product-card-img">
-                        <div class="product-card-overlay">
-                            <h3 class="product-card-title">UGD Pipes</h3>
-                            <!-- <a href="ugdpipes.html" target="_blank" class="product-card-button">
-                                Explore &rarr;
-                            </a> -->
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <img src="Resources/Sentini/sentini-upvc-pipes.jpg" alt="Sentini Flopipes" class="product-card-img">
-                        <div class="product-card-overlay">
-                            <h3 class="product-card-title">UPVC Pipes</h3>
-                            <!-- <a href="upvcpipes.html" target="_blank" class="product-card-button">
-                                Explore &rarr;
-                            </a> -->
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <img src="Resources/Johnson/johnson-pc.webp" alt="Johnson Pedders" class="product-card-img">
-                        <div class="product-card-overlay">
-                            <h3 class="product-card-title">Johnson Pedders</h3>
-                            <!-- <a href="johnsonpedders.html" target="_blank" class="product-card-button">
-                                Explore &rarr;
-                            </a> -->
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <img src="Resources/Johnson/johnson-cps.jpeg" alt="Sanitary & CPs" class="product-card-img">
-                        <div class="product-card-overlay">
-                            <h3 class="product-card-title">Sanitary & CPs</h3>
-                            <!-- <a href="sanitary.html" target="_blank" class="product-card-button">
-                                Explore &rarr;
-                            </a> -->
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <img src="Resources/Paras/paras-watertank-pc.webp" alt="Paras Water Tank" class="product-card-img">
-                        <div class="product-card-overlay">
-                            <h3 class="product-card-title">Paras Water Tank</h3>
-                            <!-- <a href="paraswatertank.html" target="_blank" class="product-card-button">
-                                Explore &rarr;
-                            </a> -->
-                        </div>
-                    </div>
-                    
-                </div>
-            </section>
+                </a>
 
-            <!-- Video Showcase Section -->
-            <section id="videos" class="bg-gray-100 py-12">
-                <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                    
-                    <!-- Section Title -->
-                    <h2 class="text-2xl font-bold text-gray-800 mb-8 text-center">
-                        Brand Showcase
-                    </h2>
-                    
-                    <!-- Video Container: Stacks them in a column and centers them -->
-                    <div class="flex flex-col items-center gap-8">
-                        
-                        <!-- Video 1: Sentini Flopipes -->
-                        <div class="video-card">
-                            <!-- <h3 class="text-lg font-semibold text-gray-700 mb-3">Sentini Flopipes</h3> -->
-                            <!-- NOTE: The responsive wrapper is removed -->
-                            <iframe 
-                                width="850" 
-                                height="470"
-                                src="https://www.youtube.com/embed/usid0z1Myr0?si=YGtDoYer5ly6QocI?autoplay=1" 
-                                title="Sentini Flopipes Video" 
-                                frameborder="0" 
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                                allowfullscreen>
-                            </iframe>
-                        </div>
+                <!-- Right: Desktop Navigation Links -->
+                <nav class="desktop-nav">
+                    <a href="#" class="nav-link">
+                        <i class="fa-solid fa-house"></i>
+                        <span>Home</span>
+                    </a>
+                    <a href="#about" class="nav-link">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <span>About</span>
+                    </a>
+                    <a href="#brands" class="nav-link">
+                        <i class="fa-solid fa-award"></i>
+                        <span>Brands</span>
+                    </a>
+                    <a href="#products" class="nav-link">
+                        <i class="fa-solid fa-cubes"></i>
+                        <span>Products</span>
+                    </a>
+                    <a href="#contact" class="nav-link">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>Contact</span>
+                    </a>
+                    <a href="https://store-kstco.vercel.app/" target="_blank" rel="noopener noreferrer"
+                        class="nav-cta-store" title="Visit KSTC Online Store">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <span>Store</span>
+                    </a>
+                </nav>
 
-                        <!-- Video 2: Johnson Pedder Sanitary -->
-                        <div class="video-card">
-                            <!-- <h3 class="text-lg font-semibold text-gray-700 mb-3">Johnson Pedder</h3> -->
-                            <!-- NOTE: The responsive wrapper is removed -->
-                            <iframe 
-                                width="850" 
-                                height="470"
-                                src="https://www.youtube.com/embed/lHXVircjFSc?si=gZxSutlDYbbFlRoH?autoplay=1" 
-                                title="Johnson Pedder Video" 
-                                frameborder="0" 
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                                allowfullscreen>
-                            </iframe>
-                        </div>
-
-                        <!-- Video 3: Paras Water Tank -->
-                        <div class="video-card">
-                            <!-- <h3 class="text-lg font-semibold text-gray-700 mb-3">Paras Water Tank</h3> -->
-                            <!-- NOTE: The responsive wrapper is removed -->
-                            <iframe 
-                                width="850" 
-                                height="470"
-                                src="https://www.youtube.com/embed/CzbhiiG2hyY?si=0VdWWFzRIceRjHuI?autoplay=1" 
-                                title="Johnson Pedder Video" 
-                                frameborder="0" 
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                                allowfullscreen>
-                            </iframe>
-                        </div>
-                        
-                        <!-- You can copy and paste the "video-card" div to add more videos -->
-
-                    </div>
-                </div>
-            </section>
-
-            <!-- Payment Section -->
-            <section id="payment" class="mt-12">
-                <h2 class="text-2xl font-bold text-gray-800 mb-8 text-center">Secure Payment Options</h2>
-                <div class="bg-white rounded-lg shadow-md p-8">
-                    <div class="flex flex-col md:flex-col items-center justify-between gap-8">
-                        
-                        <!-- Left Column: Text -->
-                        <div class="text-center md:text-center">
-                            <p class="text-gray-700 text-lg">Here you can use all the major payment methods through secure gateways in-store shopping or online.</p>
-                            <p class="text-gray-700 text-lg">We accepts Cheques, Credit Card, Debit Card, VISA and All Major UPIs.</p>
-                        </div>
-
-                        <!-- Right Column: Images -->
-                        <div class="flex flex-col items-center md:items-end gap-4">
-                            <!-- Top row of images (UPI/Wallets) -->
-                            <div class="flex items-center justify-center md:justify-end flex-wrap gap-4">
-                                <img src="Resources/PaymentLogo/googlepay-logo.png" alt="Google Pay" class="h-12 object-contain">
-                                <img src="Resources/PaymentLogo/phonepe-logo.png" alt="PhonePe" class="h-12 object-contain">
-                                <img src="Resources/PaymentLogo/paytm-logo.png" alt="Paytm" class="h-14 object-contain">
-                                <img src="Resources/PaymentLogo/amazonpay-logo.png" alt="Amazon Pay" class="h-12 object-contain">
-                                <img src="Resources/PaymentLogo/bhim-logo.png" alt="BHIM" class="h-7 object-contain">
-                                <img src="Resources/PaymentLogo/visa-logo.png" alt="Visa" class="h-16 object-contain">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <!-- Footer -->
-        <footer id="footer" class="bg-gray-800 text-white mt-12">
-            <div class="py-8 px-4 sm:px-6 lg:px-8">
-                <div class="flex flex-wrap justify-between text-center md:text-left -mx-4">
-                    <!-- About -->
-                    <div class="w-full md:w-1/3 px-4 mb-8 md:mb-0">
-                        <h3 class="text-lg font-semibold mb-3">Khatu Shyam Trading Co.</h3>
-                        <p class="text-gray-400 text-sm">Your trusted wholesale partner for high-quality pipes, Flopipes, and water solutions in the Gwalior & Chambal region.</p>
-                    </div>
-                    <!-- Contact Info -->
-                    <div class="w-full md:w-1/3 px-4 mb-8 md:mb-0">
-                        <h3 class="text-lg font-semibold mb-3">Contact Us</h3>
-                        <ul class="space-y-2 text-sm">
-                            <li class="flex items-center justify-center md:justify-start">
-                                <i class="fa-solid fa-location-dot w-5 mr-2"></i>
-                                <span>Radhapuram, near Amity University, Maharajpura, Gwalior, Madhya Pradesh, 474005, India</span>
-                            </li>
-                            <li class="flex items-center justify-center md:justify-start">
-                                <i class="fa-solid fa-phone w-5 mr-2"></i>
-                                <a href="tel:+91 93404 86840" class="text-gray-300 hover:text-white">+91 93404 86840</a>
-                            </li>
-                            <li class="flex items-center justify-center md:justify-start">
-                                <i class="fa-solid fa-envelope w-5 mr-2"></i>
-                                <a href="mailto:kstradingco88@gmail.com" class="text-gray-300 hover:text-white">kstradingco88@gmail.com</a>
-                            </li>
-                            <li class="flex items-center justify-center md:justify-start">
-                                <i class="fa-solid fa-map-location-dot w-5 mr-2"></i>
-                                <a href="https://maps.app.goo.gl/iEdqLSsPtrpXNR7q9" target="_blank" class="text-gray-300 hover:text-white">View on Google Maps</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- Social Links -->
-                    <div class="w-full md:w-1/3 px-4">
-                        <h3 class="text-lg font-semibold mb-3">Follow Us</h3>
-                        <div class="flex justify-center md:justify-start space-x-4">
-                            <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook-f text-xl"></i></a>
-                            <a href="https://www.instagram.com/khatushyamtradingco" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white"><i class="fab fa-instagram text-xl"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="mt-8 border-t border-gray-700 pt-6 text-center text-sm text-gray-400">
-                    <p>&copy; 2025 Khatu Shyam Trading Co.. All Rights Reserved. &trade;</p>
-                </div>
-            </div>
-        </footer>
-
-        <!-- Floating Dealer Notice Button -->
-        <button id="show-notice-btn" class="notice-float" title="Dealer Notice">
-            <i class="fa-solid fa-bullhorn"></i>
-        </button>
-        
-        <!-- Floating WhatsApp Button -->
-        <a href="https://wa.me/919340486840?text=Hello!%20I'm%20interested%20in%20your%20products%20range.%20I've%20got%20you%20from%20your%20website.%20Let's%20have%20a%20good%20deal." class="whatsapp-float" target="_blank">
-            <i class="fab fa-whatsapp my-4"></i>
-        </a>
-
-        <!-- Notification Modal -->
-        <div id="notification-modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
-            <div id="notification-content" class="bg-white rounded-lg shadow-xl p-6 md:p-8 w-11/12 max-w-lg relative">
-                <button id="close-modal-btn" class="absolute top-3 right-3 text-gray-500 hover:text-gray-800">
-                    <i class="fa-solid fa-times text-2xl"></i>
+                <!-- Mobile Menu Button -->
+                <button id="menu-button" class="mobile-toggle" aria-label="Toggle Navigation">
+                    <i class="fa-solid fa-bars"></i>
                 </button>
-                <h2 class="text-xl font-bold text-gray-800 mb-4">Dear Customer,</h2>
-                <div class="text-gray-600 space-y-3 text-sm md:text-base">
-                    <p>We are the <b>authorized distributor</b> of Sentini Flopipes in the Gwalior & Chambal region.</p>
-                    <p>We supply a wide range of pipes and fitting accessories. If you wish to purchase any products, please feel free to contact us at the number provided.</p>
-                    <p class="font-semibold mt-2">Our Product Range:</p>
-                    <ul class="list-disc list-inside ml-4">
-                        <li>Casings, Column Pipes</li>
-                        <li>UPVC, CPVC Pipes</li>
-                        <li>UGD, SWR, Agri Pipes</li>
-                    </ul>
-                    <p class="font-semibold mt-2">We also deal in Paras Water Tanks & Johnson Pedders Sanitary.</p>
-                    <p class="font-bold text-red-600 mt-4">Note:</p>
-                    <p class="font-semibold">We only sell in wholesale to shop owners and dealers. We do not sell to individual customers.</p>
-                    <p class="mt-4">Thank you & Regards,<br>Khatu Shyam Trading Co.</p>
-                </div>
             </div>
         </div>
 
-        <!-- 1. Swiper JS for Image Slider (MUST BE FIRST) -->
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-        
-        <!-- 2. Your Custom JS (MUST BE SECOND) -->
-        <script src="JS/script.js"></script>
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="#" class="nav-link">
+                <i class="fa-solid fa-house"></i>
+                <span>Home</span>
+            </a>
+            <a href="#brands" class="nav-link">
+                <i class="fa-solid fa-award"></i>
+                <span>Brands</span>
+            </a>
+            <a href="#products" class="nav-link">
+                <i class="fa-solid fa-cubes"></i>
+                <span>Products</span>
+            </a>
+            <a href="#about" class="nav-link">
+                <i class="fa-solid fa-circle-info"></i>
+                <span>About</span>
+            </a>
+            <a href="#contact" class="nav-link">
+                <i class="fa-solid fa-phone"></i>
+                <span>Contact</span>
+            </a>
+            <div class="mobile-menu-cta">
+                <a href="https://store-kstco.vercel.app/" target="_blank" rel="noopener noreferrer"
+                    class="nav-cta-store">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span>Visit Store</span>
+                </a>
+            </div>
+        </div>
+    </header>
 
-    </body>
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section: Aesthetic Bathroom Background with Transparent Text -->
+        <section class="hero-section">
+            <div class="site-container">
+                <div class="hero-banner">
+                    <img src="Resources/hero-bathroom.jpg" alt="Modern Bathroom Architecture and Sanitary"
+                        class="hero-bg-img">
+                    <div class="hero-overlay">
+                        <div class="hero-content">
+                            <span class="hero-eyebrow">Authorized Wholesale Distributor</span>
+                            <h1 class="hero-title-transparent">
+                                Khatu Shyam<br>Trading Co.
+                            </h1>
+                            <p class="hero-subtitle">
+                                Premier regional distributor of certified Sentini Flopipes, Polyworld Water Storage
+                                Tanks, and Johnson Pedders Sanitary Ware across Gwalior &amp; Chambal.
+                            </p>
+                            <div class="hero-actions">
+                                <a href="#products" class="btn-primary">
+                                    <span>Explore Products</span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                                <a href="#contact" class="btn-secondary">
+                                    <span>Contact Desk</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section (Matching Ecom Design) -->
+        <section id="about" class="about-section">
+            <div class="site-container">
+                <div class="about-card">
+                    <div class="about-content">
+                        <span class="section-eyebrow">About KSTC</span>
+                        <h2 class="about-title">Your Trusted Partner in <span>Plumbing &amp; Sanitary</span></h2>
+                        <p class="about-lead">
+                            We are <strong>Khatu Shyam Trading Co.</strong>, the authorized distributor for Sentini
+                            Flopipes, Polyworld Water Tanks, and Johnson Pedders in the Gwalior &amp; Chambal region.
+                        </p>
+                        <p class="about-body">
+                            With an unwavering commitment to engineering quality and trade service, we supply a
+                            comprehensive range of plumbing and sanitary solutions to both retail customers and
+                            commercial contractors. Our product lineup includes UPVC, CPVC, SWR, and Agri pipes, along
+                            with premium sanitary ware, water tanks, and fitting accessories.
+                        </p>
+                        <div>
+                            <a href="#contact" class="btn-primary">
+                                <span>Get in Touch</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="about-logo-frame">
+                        <img src="Resources/KSTC/kstc-logo.png" alt="KSTC Official Logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Brands Section: Sentini, Johnson Pedders, Polyworld -->
+        <section id="brands" class="brands-section">
+            <div class="site-container">
+                <div class="section-header">
+                    <span class="section-eyebrow">Official Partnerships</span>
+                    <h2 class="section-title">Authorized Distributors</h2>
+                    <p class="section-subtitle">Delivering certified pipes, heavy-duty water storage tanks, and modern
+                        sanitary solutions from India's leading manufacturers.</p>
+                </div>
+
+                <div class="brands-grid">
+                    <a href="https://www.sentiniflopipes.com/" target="_blank" rel="noopener noreferrer"
+                        class="brand-logo-card" title="Sentini Flopipes">
+                        <img src="Resources/Sentini/sentini-logo.png" alt="Sentini Flopipes Logo">
+                    </a>
+                    <a href="https://www.johnsonpedder.in/" target="_blank" rel="noopener noreferrer"
+                        class="brand-logo-card" title="Johnson Pedder Sanitary">
+                        <img src="Resources/Johnson/johnson-logo.png" alt="Johnson Pedders Logo">
+                    </a>
+                    <a href="https://www.polyworld.in/" target="_blank" rel="noopener noreferrer"
+                        class="brand-logo-card" title="Polyworld Water Tanks">
+                        <img src="Resources/Polyworld/polyworld-logo.png" alt="Polyworld Water Tanks Logo">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Categories Section: Exactly 3 Cards Per Row -->
+        <section id="products" class="products-section">
+            <div class="site-container">
+                <div class="section-header">
+                    <span class="section-eyebrow">Wholesale Catalog</span>
+                    <h2 class="section-title">Our Product Range</h2>
+                    <p class="section-subtitle">Heavy-duty plumbing, agricultural column pipes, underground drainage,
+                        and modern sanitary solutions.</p>
+                </div>
+
+                <div class="products-grid">
+                    <!-- Product Card 1 -->
+                    <div class="product-card">
+                        <img src="Resources/Sentini/sentini-flopipes.jpg" alt="Sentini Flopipes"
+                            class="product-card-img">
+                        <span class="product-card-hash">#Sentini</span>
+                        <div class="product-card-overlay">
+                            <h3 class="product-card-title">Sentini Flopipes</h3>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 2 -->
+                    <div class="product-card">
+                        <img src="Resources/Sentini/sentini-agri-pipes.jpg" alt="Agri Pipes" class="product-card-img">
+                        <span class="product-card-hash">#Agriculture</span>
+                        <div class="product-card-overlay">
+                            <h3 class="product-card-title">Agri Pipes</h3>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 3 -->
+                    <div class="product-card">
+                        <img src="Resources/Sentini/sentini-casing-pipes.jpg" alt="Casing Pipes"
+                            class="product-card-img">
+                        <span class="product-card-hash">#Borewell</span>
+                        <div class="product-card-overlay">
+                            <h3 class="product-card-title">Casing Pipes</h3>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 4 -->
+                    <div class="product-card">
+                        <img src="Resources/Sentini/sentini-column-pipes.jpg" alt="Column Pipes"
+                            class="product-card-img">
+                        <span class="product-card-hash">#Submersible</span>
+                        <div class="product-card-overlay">
+                            <h3 class="product-card-title">Column Pipes</h3>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 5 -->
+                    <div class="product-card">
+                        <img src="Resources/Sentini/sentini-conduit-pipes.jpg" alt="Conduit Pipes"
+                            class="product-card-img">
+                        <span class="product-card-hash">#Electrical</span>
+                        <div class="product-card-overlay">
+                            <h3 class="product-card-title">Conduit Pipes</h3>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 6 -->
+                    <div class="product-card">
+                        <img src="Resources/Sentini/sentini-cpvc-pipes.jpg" alt="CPVC Pipes" class="product-card-img">
+                        <span class="product-card-hash">#Hot &amp; Cold</span>
+                        <div class="product-card-overlay">
+                            <h3 class="product-card-title">CPVC Pipes</h3>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 7 -->
+                    <div class="product-card">
+                        <img src="Resources/Sentini/sentini-swr-pipes.jpg" alt="SWR Pipes" class="product-card-img">
+                        <span class="product-card-hash">#Drainage</span>
+                        <div class="product-card-overlay">
+                            <h3 class="product-card-title">SWR Pipes</h3>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 8 -->
+                    <div class="product-card">
+                        <img src="Resources/Sentini/sentini-ugd-pipes.jpg" alt="UGD Pipes" class="product-card-img">
+                        <span class="product-card-hash">#Underground</span>
+                        <div class="product-card-overlay">
+                            <h3 class="product-card-title">UGD Pipes</h3>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 9 -->
+                    <div class="product-card">
+                        <img src="Resources/Sentini/sentini-upvc-pipes.jpg" alt="UPVC Pipes" class="product-card-img">
+                        <span class="product-card-hash">#Plumbing</span>
+                        <div class="product-card-overlay">
+                            <h3 class="product-card-title">UPVC Pipes</h3>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 10 -->
+                    <div class="product-card">
+                        <img src="Resources/Johnson/johnson-pc.webp" alt="Johnson Pedder Sanitary"
+                            class="product-card-img">
+                        <span class="product-card-hash">#Sanitary Ware</span>
+                        <div class="product-card-overlay">
+                            <h3 class="product-card-title">Johnson Pedders</h3>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 11 -->
+                    <div class="product-card">
+                        <img src="Resources/Johnson/johnson-cps.jpeg" alt="Sanitary & CP Fittings"
+                            class="product-card-img">
+                        <span class="product-card-hash">#CP Fittings</span>
+                        <div class="product-card-overlay">
+                            <h3 class="product-card-title">Sanitary &amp; CPs</h3>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 12: Polyworld Water Tank (Replaced Paras) -->
+                    <div class="product-card">
+                        <img src="Resources/Paras/paras-watertank-pc.webp" alt="Polyworld Water Tank"
+                            class="product-card-img">
+                        <span class="product-card-hash">#Water Storage</span>
+                        <div class="product-card-overlay">
+                            <h3 class="product-card-title">Polyworld Water Tank</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Secure Payment Options Section -->
+        <section id="payment" class="payment-section">
+            <div class="site-container">
+                <div class="section-header">
+                    <span class="section-eyebrow">Billing &amp; Transactions</span>
+                    <h2 class="section-title">Secure Payment Options</h2>
+                </div>
+
+                <div class="payment-card">
+                    <div class="payment-desc">
+                        <p class="payment-desc-main">We accept all major commercial and retail payment methods with
+                            secure electronic clearance.</p>
+                        <p class="payment-desc-sub">Direct Bank Transfers (NEFT/RTGS/IMPS), Commercial Cheques,
+                            Debit/Credit Cards, and all Unified Payment Interfaces (UPI).</p>
+                    </div>
+
+                    <div class="payment-icons">
+                        <img src="Resources/PaymentLogo/googlepay-logo.png" alt="Google Pay" class="payment-icon-img">
+                        <img src="Resources/PaymentLogo/phonepe-logo.png" alt="PhonePe" class="payment-icon-img">
+                        <img src="Resources/PaymentLogo/paytm-logo.png" alt="Paytm" class="payment-icon-img">
+                        <img src="Resources/PaymentLogo/amazonpay-logo.png" alt="Amazon Pay" class="payment-icon-img">
+                        <img src="Resources/PaymentLogo/bhim-logo.png" alt="BHIM UPI" class="payment-icon-img">
+                        <img src="Resources/PaymentLogo/visa-logo.png" alt="Visa Card" class="payment-icon-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section (Matching Ecom Contact Page) -->
+        <section id="contact" class="contact-section">
+            <div class="site-container">
+                <div class="section-header">
+                    <span class="section-eyebrow">Get in Touch</span>
+                    <h2 class="section-title">Contact Us</h2>
+                    <p class="section-subtitle">Get in touch with our commercial sales desk, technical assistance, or
+                        visit our wholesale warehouse showroom in Maharajpura, Gwalior.</p>
+                </div>
+
+                <div class="contact-layout">
+                    <!-- Left: Interactive Map -->
+                    <div class="map-card">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3287.0145320883375!2d78.22335264366733!3d26.26678713027006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3976c77cbcb628c1%3A0x5d89e0ad2bd0301a!2sKhatu%20Shyam%20Trading%20Co.!5e0!3m2!1sen!2sin!4v1782819374303!5m2!1sen!2sin"
+                            width="100%" height="100%" style="border: 0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade" title="Khatu Shyam Trading Co. Location">
+                        </iframe>
+                    </div>
+
+                    <!-- Right: Store Detail Cards -->
+                    <div class="contact-sidebar">
+                        <!-- Warehouse -->
+                        <div class="store-info-card">
+                            <div class="store-card-header">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>Our Warehouse</span>
+                            </div>
+                            <p class="store-card-text">
+                                Radhapuram, Vaibhav Enclave, Maharajpura, Gwalior-474005, Madhya Pradesh, India
+                            </p>
+                            <a href="https://maps.app.goo.gl/HMytKeSHLpnLAgAp7" target="_blank"
+                                rel="noopener noreferrer" class="btn-secondary" style="width: 100%;">
+                                <i class="fa-solid fa-diamond-turn-right"></i>
+                                <span>Get Directions</span>
+                            </a>
+                        </div>
+
+                        <!-- Operating Hours -->
+                        <div class="store-info-card">
+                            <div class="store-card-header">
+                                <i class="fa-solid fa-clock"></i>
+                                <span>Operating Hours</span>
+                            </div>
+                            <div class="store-hours-row">
+                                <span class="label">Monday – Saturday</span>
+                                <span class="time">10:00 AM – 05:00 PM</span>
+                            </div>
+                        </div>
+
+                        <!-- Connect Us (Merged Contact Numbers, Email & Social Links) -->
+                        <div class="store-info-card">
+                            <div class="store-card-header">
+                                <i class="fa-solid fa-phone"></i>
+                                <span>Connect Us</span>
+                            </div>
+                            <div class="store-contact-list">
+                                <p class="store-contact-item"><strong>Primary Phone:</strong> <a
+                                        href="tel:+919340486840">+91 93404 86840</a></p>
+                                <p class="store-contact-item"><strong>Alternate Phone:</strong> <a
+                                        href="tel:+919074912742">+91 90749 12742</a></p>
+                                <p class="store-contact-item"><strong>Official Email:</strong> <a
+                                        href="mailto:kstradingco88@gmail.com">kstradingco88@gmail.com</a></p>
+                                <p class="store-contact-item"><strong>WhatsApp Desk:</strong> <a
+                                        href="https://wa.me/919340486840?text=Hello!%20I'm%20interested%20in%20your%20products.%20I've%20got%20you%20from%20your%20website.%20Let's%20have%20a%20good%20deal."
+                                        target="_blank" rel="noopener noreferrer">+91 93404 86840</a></p>
+                            </div>
+                            <hr class="contact-card-divider">
+                            <div class="social-buttons-row">
+                                <a href="https://wa.me/919340486840?text=Hello!%20I'm%20interested%20in%20your%20products.%20I've%20got%20you%20from%20your%20website.%20Let's%20have%20a%20good%20deal."
+                                    target="_blank" rel="noopener noreferrer" class="social-btn"
+                                    title="Chat on WhatsApp" aria-label="WhatsApp">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </a>
+                                <a href="#" class="social-btn" title="Facebook Page" aria-label="Facebook">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                                <a href="https://www.instagram.com/khatushyamtradingco" target="_blank"
+                                    rel="noopener noreferrer" class="social-btn" title="Follow on Instagram"
+                                    aria-label="Instagram">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Site Footer (Minimal Bar Only, Same Sand Background as Homepage) -->
+    <footer id="footer" class="site-footer">
+        <div class="site-container">
+            <div class="footer-bottom-bar">
+                <p class="footer-copyright">&copy; 2026 Khatu Shyam Trading Co. All Rights Reserved.</p>
+                <p class="footer-badge-text">Authorized Wholesale Distributor</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/919340486840?text=Hello!%20I'm%20interested%20in%20your%20products%20range.%20I've%20got%20you%20from%20your%20website.%20Let's%20have%20a%20good%20deal."
+        class="whatsapp-float" target="_blank" rel="noopener noreferrer" title="Chat with us on WhatsApp"
+        aria-label="Chat with us on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Notification Announcement Modal -->
+    <div id="notification-modal" class="modal-overlay hidden">
+        <div id="notification-content" class="modal-card">
+            <button id="close-modal-btn" class="modal-close-btn" aria-label="Close Notice">
+                <i class="fa-solid fa-times"></i>
+            </button>
+            <div style="margin-bottom: 0.75rem;">
+                <span class="section-eyebrow">Important Announcement</span>
+            </div>
+            <h3
+                style="font-family: var(--font-heading); font-size: 1.25rem; font-weight: 900; color: var(--dark); margin-bottom: 0.75rem;">
+                Dear Trade Partners &amp; Dealers,</h3>
+            <div
+                style="font-size: 0.875rem; color: var(--primary-text); line-height: 1.6; display: flex; flex-direction: column; gap: 0.65rem;">
+                <p>We are the <strong>authorized regional distributor</strong> of Sentini Flopipes in the Gwalior &amp;
+                    Chambal region.</p>
+                <p>We supply a wide range of certified pipes and fitting accessories. For commercial inquiries and
+                    wholesale price lists, please contact our distribution desk directly.</p>
+                <div
+                    style="background: var(--sand-bg); border: 1px solid var(--border-color); border-radius: 0.75rem; padding: 0.85rem; margin: 0.35rem 0;">
+                    <p
+                        style="font-weight: 800; color: var(--primary-emerald); font-size: 0.75rem; text-transform: uppercase; margin-bottom: 0.35rem;">
+                        Authorized Product Range:</p>
+                    <p style="font-size: 0.8rem; color: var(--primary-text);">Borewell Casings, Submersible Column, UPVC
+                        / CPVC Pipes, UGD / SWR / Agri, Polyworld Water Tanks, and Johnson Pedders Sanitary Ware.</p>
+                </div>
+                <p style="font-size: 0.8rem; color: var(--secondary-text);">Thank you &amp; Regards,<br><strong
+                        style="color: var(--primary-emerald);">Khatu Shyam Trading Co.</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+
 </html>
