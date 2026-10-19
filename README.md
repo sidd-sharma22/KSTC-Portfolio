@@ -47,6 +47,7 @@ Built entirely with **vanilla web technologies** (HTML5, Vanilla CSS3, and ES6 J
 - **About KSTC Story:** Enterprise background detailing distribution capabilities, regional coverage, and commercial wholesale reliability.
 - **3-Column Product Catalog:** Clean 3-column grid displaying all 12 core product lines (Borewell Casings, Column Pipes, UPVC, CPVC, SWR, Sanitary Ware, CP Fittings, and Polyworld Water Tanks) with subtle high-contrast hashtag badges.
 - **Interactive Contact & Warehouse Section:** Full-width embedded Google Map coupled with physical warehouse location, operating schedule, and a consolidated **Connect Us** card.
+- **Vercel Web Analytics:** Privacy-conscious page view and visitor analytics through Vercel's native static-site endpoint.
 - **Minimalist Sand-Tone Footer:** Single-line copyright bar matching the warm `#FAF8F2` sand canvas with clean typography and authorized wholesale distributor notice.
 - **Floating WhatsApp Desk:** Persistent one-click chat button with pre-configured wholesale inquiry message.
 - **Trade Notification Modal:** Contextual announcement popup for trade partners and dealers.
@@ -64,7 +65,7 @@ This project deliberately avoids heavy JavaScript frameworks or CSS utility buil
 | **Interactivity** | Vanilla ES6 JavaScript | Mobile navigation drawer, notice modal lifecycle |
 | **Typography** | Arial Black / Arial | Universally supported, high-contrast, bold enterprise font stack |
 | **Icons** | Font Awesome 6.5.1 | Lightweight vector iconography via CDN |
-| **Hosting** | Vercel Edge Network | Global CDN deployment with automatic SSL and caching |
+| **Hosting** | Vercel Edge Network | Global CDN deployment with automatic SSL, caching, and Web Analytics |
 
 ---
 
@@ -193,6 +194,8 @@ The portfolio includes rich search engine optimization (SEO) and social media sh
 ## Deployment on Vercel
 
 The portfolio is deployed directly on **Vercel** with zero build configuration needed:
+
+Vercel Web Analytics is enabled in `index.html` using the native `/_vercel/insights/script.js` endpoint. Enable **Web Analytics** in the Vercel project dashboard under the **Analytics** tab to begin collecting data after deployment. The Next.js import (`@vercel/analytics/next`) is not used because this project is a static vanilla HTML site.
 
 ### Using Git Integration (Automatic)
 Push commits to the connected repository branch (`main` or `master`); Vercel automatically deploys updates to [https://kstco.vercel.app](https://kstco.vercel.app).
