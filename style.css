@@ -178,6 +178,7 @@ button, input, textarea {
 }
 
 .nav-cta-store {
+    position: relative;
     display: inline-flex;
     align-items: center;
     gap: 0.45rem;
@@ -197,6 +198,25 @@ button, input, textarea {
     background: var(--hover-emerald);
     box-shadow: 0 4px 14px rgba(15, 138, 99, 0.35);
     transform: translateY(-1px);
+}
+
+.beta-tag {
+    position: absolute;
+    top: -9px;
+    right: 4px;
+    font-size: 0.525rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background: var(--sand-bg);
+    color: var(--primary-emerald);
+    padding: 0.1rem 0.45rem;
+    border-radius: 9999px;
+    line-height: 1.2;
+    white-space: nowrap;
+    box-shadow: 0 2px 6px rgba(24, 35, 31, 0.12);
+    border: 1px solid var(--primary-emerald);
+    pointer-events: none;
 }
 
 /* Mobile Toggle */
