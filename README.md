@@ -21,7 +21,7 @@ KSTC is the leading authorized regional wholesale distributor for **Sentini Flop
 - [Key Features](#key-features)
 - [Tech Stack](#tech-stack)
 - [Visual Design System: "Emerald & Sand"](#visual-design-system-emerald--sand)
-- [Authorized Distributorships & Catalog](#authorized-distributorships--catalog)
+- [Authorized Wholesale Distributorships & Catalog](#authorized-distributorships--catalog)
 - [Project Structure](#project-structure)
 - [Getting Started & Local Development](#getting-started--local-development)
 - [SEO & Social Previews (Open Graph)](#seo--social-previews-open-graph)
@@ -93,7 +93,7 @@ The portfolio is built on KSTC's cohesive **Emerald & Sand** color system:
 
 ---
 
-## Authorized Distributorships & Catalog
+## Authorized Wholesale Distributorships & Catalog
 
 KSTC maintains direct authorized factory distribution channels for:
 
@@ -218,7 +218,7 @@ vercel --prod
 
 Wholesale trade inquiries, authorized price lists, and contractor orders can be placed directly with the distribution facility:
 
-- **Facility Address:** Radhapuram, Vaibhav Enclave, Maharajpura, near Amity University, Gwalior – 474005, Madhya Pradesh, India
+- **Facility Address:** Vaibhav Enclave, Shubhanjalipuram, Radhapuram, Maharajpura, Gwalior, Madhya Pradesh, 474005
 - **Operating Schedule:** Monday through Saturday, 10:00 AM – 05:00 PM IST
 - **Primary Phone:** [+91 93404 86840](tel:+919340486840)
 - **Alternate Phone:** [+91 90749 12742](tel:+919074912742)
